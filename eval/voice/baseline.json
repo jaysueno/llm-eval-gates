@@ -1,0 +1,15 @@
+{
+  "about": "Ratchet floor for the seed 7 synthetic set. Only ratchet gates live here; the hard-zero gates are constants in lib/gates.mjs and a key for one of them here fails the run. scripts/rebaseline.mjs only ever tightens these numbers.",
+  "set": {
+    "generator": "scripts/generate-golden.mjs",
+    "seed": 7
+  },
+  "gates": {
+    "min_cases": 10
+  },
+  "scores_at_pin": {
+    "cases": 10,
+    "cases_passed": 10,
+    "name_halluc": 0
+  }
+}

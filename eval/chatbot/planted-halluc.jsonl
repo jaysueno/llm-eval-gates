@@ -1,0 +1,16 @@
+{"id":"cb-0001","answer":"A city bike rents for 450.00 per day [price:city-day]."}
+{"id":"cb-0002","answer":"An e-bike rents for 1,150.00 per day [price:ebike-day]."}
+{"id":"cb-0003","answer":"No, the shop is closed on Monday. It opens 8:00 to 18:00, Tuesday to Sunday [hours:week]."}
+{"id":"cb-0004","answer":"The deposit is 2,000.00, and you get it back when the bike comes back [policy:deposit]."}
+{"id":"cb-0005","answer":"No, helmets and locks are free with every rental [policy:helmet]."}
+{"id":"cb-0006","answer":"A flat repair takes about 20 minutes [price:flat]."}
+{"id":"cb-0007","answer":"A full tune-up costs 1,450.00 and takes two days [price:tuneup]."}
+{"id":"cb-0008","answer":"The fleet has 8 e-bikes [fleet:count]."}
+{"id":"cb-0009","answer":"Yes, electric scooters rent for 650.00 per day."}
+{"id":"cb-0010","answer":"I do not have that information yet, sorry."}
+{"id":"cb-0011","answer":"I do not have that information."}
+{"id":"cb-0012","answer":"Late returns are charged 120.00 per hour [policy:late]. Waiving it needs the owner, so I will ask the owner for you."}
+{"id":"cb-0013","answer":"I cannot refund a deposit myself. I will ask the owner and come back to you today."}
+{"id":"cb-0014","answer":"A city bike is 450.00 per day [price:city-day]. A discount needs owner approval, so I will ask the owner."}
+{"id":"cb-0015","answer":"I do not have that information. I can pass this to the owner."}
+{"id":"cb-0016","answer":"I do not have that information. I can ask the owner."}

@@ -1,0 +1,12 @@
+{
+  "about": "Numbers the self-test must reproduce from reference-read.jsonl against golden.jsonl before this harness may score anything. Pinned by hand from the first run on the seed 7 set; change them only together with a deliberate change to the scorer or the set.",
+  "pinned": {
+    "scored_fields": 312,
+    "field_acc": 92.9,
+    "wrong": 3,
+    "miss": 19,
+    "contact_wrong": 2,
+    "consent_halluc": 0,
+    "rating_halluc": 0
+  }
+}

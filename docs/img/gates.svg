@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<title id="title">The gate pipeline</title>
+<desc id="desc">Five steps in order: a generated golden set, a self-test that must reproduce its pinned numbers, scoring the recorded reads, hard-zero gates fixed in code, and ratchet gates from a baseline that only tightens; each step can refuse, and the run ends in GATE PASS or one GATE FAIL line per failed gate.</desc>
+<rect x="0" y="0" width="1200" height="500" fill="#EDE7DC"/>
+<rect x="1" y="1" width="1198" height="498" fill="#001B3B"/>
+<text x="40" y="56" font-family="Georgia, 'Playfair Display', serif" font-size="30" fill="#F2EDE2">A model or prompt change ships only if every gate holds</text>
+<text x="40" y="88" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#D8D3CA">Five steps, in this order. A refusal at any step stops the run before a verdict.</text>
+<rect x="40" y="120" width="196" height="108" rx="4" fill="#EDE7DC"/>
+<rect x="42" y="122" width="192" height="104" rx="3" fill="#001B3B"/>
+<text x="138" y="156" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">golden set</text>
+<text x="138" y="180" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">generated from</text>
+<text x="138" y="204" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">a fixed seed</text>
+<polygon points="240,175.5 255,175.5 255,172.5 240,172.5" fill="#8C5348"/>
+<polygon points="267,174 255,180 255,168" fill="#8C5348"/>
+<rect x="137" y="230" width="2" height="4" fill="#D8D3CA"/>
+<rect x="137" y="238" width="2" height="4" fill="#D8D3CA"/>
+<rect x="137" y="246" width="2" height="4" fill="#D8D3CA"/>
+<rect x="40" y="252" width="196" height="96" rx="4" fill="#8C5348"/>
+<text x="138" y="283" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">refuses a set with</text>
+<text x="138" y="305" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">no money in it, or</text>
+<text x="138" y="327" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">no blank to invent on</text>
+<rect x="271" y="120" width="196" height="108" rx="4" fill="#EDE7DC"/>
+<rect x="273" y="122" width="192" height="104" rx="3" fill="#001B3B"/>
+<text x="369" y="156" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">self-test</text>
+<text x="369" y="180" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">reproduce the</text>
+<text x="369" y="204" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">pinned numbers</text>
+<polygon points="471,175.5 486,175.5 486,172.5 471,172.5" fill="#8C5348"/>
+<polygon points="498,174 486,180 486,168" fill="#8C5348"/>
+<rect x="368" y="230" width="2" height="4" fill="#D8D3CA"/>
+<rect x="368" y="238" width="2" height="4" fill="#D8D3CA"/>
+<rect x="368" y="246" width="2" height="4" fill="#D8D3CA"/>
+<rect x="271" y="252" width="196" height="96" rx="4" fill="#8C5348"/>
+<text x="369" y="294" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">SELF-TEST FAIL:</text>
+<text x="369" y="316" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">no verdict at all</text>
+<rect x="502" y="120" width="196" height="108" rx="4" fill="#EDE7DC"/>
+<rect x="504" y="122" width="192" height="104" rx="3" fill="#001B3B"/>
+<text x="600" y="156" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">score the read</text>
+<text x="600" y="180" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">recorded reads,</text>
+<text x="600" y="204" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">one line per case</text>
+<polygon points="702,175.5 717,175.5 717,172.5 702,172.5" fill="#8C5348"/>
+<polygon points="729,174 717,180 717,168" fill="#8C5348"/>
+<rect x="599" y="230" width="2" height="4" fill="#D8D3CA"/>
+<rect x="599" y="238" width="2" height="4" fill="#D8D3CA"/>
+<rect x="599" y="246" width="2" height="4" fill="#D8D3CA"/>
+<rect x="502" y="252" width="196" height="96" rx="4" fill="#8C5348"/>
+<text x="600" y="283" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">refuses an unknown</text>
+<text x="600" y="305" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">flag; no switch</text>
+<text x="600" y="327" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">changes a gate</text>
+<rect x="733" y="120" width="196" height="108" rx="4" fill="#EDE7DC"/>
+<rect x="735" y="122" width="192" height="104" rx="3" fill="#001B3B"/>
+<text x="831" y="156" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">hard-zero gates</text>
+<text x="831" y="180" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">invented values: 0</text>
+<text x="831" y="204" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">a constant in code</text>
+<polygon points="933,175.5 948,175.5 948,172.5 933,172.5" fill="#8C5348"/>
+<polygon points="960,174 948,180 948,168" fill="#8C5348"/>
+<rect x="830" y="230" width="2" height="4" fill="#D8D3CA"/>
+<rect x="830" y="238" width="2" height="4" fill="#D8D3CA"/>
+<rect x="830" y="246" width="2" height="4" fill="#D8D3CA"/>
+<rect x="733" y="252" width="196" height="96" rx="4" fill="#8C5348"/>
+<text x="831" y="294" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">a baseline that sets</text>
+<text x="831" y="316" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">one fails the run</text>
+<rect x="964" y="120" width="196" height="108" rx="4" fill="#EDE7DC"/>
+<rect x="966" y="122" width="192" height="104" rx="3" fill="#001B3B"/>
+<text x="1062" y="156" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">ratchet gates</text>
+<text x="1062" y="180" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">baseline.json,</text>
+<text x="1062" y="204" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">only tightens</text>
+<rect x="1061" y="230" width="2" height="4" fill="#D8D3CA"/>
+<rect x="1061" y="238" width="2" height="4" fill="#D8D3CA"/>
+<rect x="1061" y="246" width="2" height="4" fill="#D8D3CA"/>
+<rect x="964" y="252" width="196" height="96" rx="4" fill="#8C5348"/>
+<text x="1062" y="294" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">refuses to raise a</text>
+<text x="1062" y="316" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F2EDE2">floor on a failing run</text>
+<rect x="40" y="384" width="540" height="72" rx="4" fill="#59591D"/>
+<text x="310" y="416" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#F2EDE2">GATE PASS</text>
+<text x="310" y="442" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#F2EDE2">every hard gate at zero, every ratchet held</text>
+<rect x="620" y="384" width="540" height="72" rx="4" fill="#EDE7DC"/>
+<rect x="622" y="386" width="536" height="68" rx="3" fill="#001B3B"/>
+<text x="890" y="416" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#F2EDE2">GATE FAIL &lt;key&gt;</text>
+<text x="890" y="442" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">one line per failed gate, exit 1, it does not ship</text>
+</svg>

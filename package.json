@@ -1,0 +1,18 @@
+{
+  "name": "llm-eval-gates",
+  "version": "1.0.0",
+  "description": "Evals that block a model or prompt change when it regresses: hard-zero gates for invented values, baselines that only ratchet up, harnesses that reproduce their own pinned numbers before they score, and a judge from a different model family.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Jay Sueno",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "golden": "node scripts/generate-golden.mjs --seed 7 --out eval",
+    "self-test": "node scripts/receipts-eval.mjs && node scripts/surveys-eval.mjs && node scripts/voice-eval.mjs && node scripts/chatbot-eval.mjs",
+    "rebaseline": "node scripts/rebaseline.mjs",
+    "images": "node docs/img/make.mjs"
+  }
+}

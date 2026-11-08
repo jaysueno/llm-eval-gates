@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<title id="title">Four outcomes per field</title>
+<desc id="desc">For the 31 receipts with a total, the reference read has 27 matches, 2 wrong totals and 2 blanks; for the 5 receipts without a total it invents none, while the planted read invents 5, which the hard-zero gate total_halluc catches.</desc>
+<rect x="0" y="0" width="1200" height="470" fill="#EDE7DC"/>
+<rect x="1" y="1" width="1198" height="468" fill="#001B3B"/>
+<text x="40" y="56" font-family="Georgia, 'Playfair Display', serif" font-size="28" fill="#F2EDE2">Four outcomes for every field. Only a miss is safe.</text>
+<text x="40" y="88" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#D8D3CA">Totals in the seed 7 receipt set: 31 receipts with a total, 5 without one.</text>
+<text x="435" y="136" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#F2EDE2">read equals the truth</text>
+<text x="725" y="136" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#F2EDE2">read differs</text>
+<text x="1015" y="136" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#F2EDE2">read is blank</text>
+<text x="270" y="210" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="end" fill="#F2EDE2">truth has a value</text>
+<text x="270" y="236" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="end" fill="#D8D3CA">31 totals</text>
+<text x="270" y="340" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="end" fill="#F2EDE2">truth is blank</text>
+<text x="270" y="366" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="end" fill="#D8D3CA">5 totals</text>
+<rect x="300" y="156" width="270" height="110" rx="4" fill="#59591D"/>
+<text x="435" y="205" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">match</text>
+<text x="435" y="229" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">27 in the reference read</text>
+<rect x="590" y="156" width="270" height="110" rx="4" fill="#8C5348"/>
+<text x="725" y="193" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">wrong</text>
+<text x="725" y="217" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">2: a confident misread</text>
+<text x="725" y="241" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">ratchet: max_total_wrong</text>
+<rect x="880" y="156" width="270" height="110" rx="4" fill="#EDE7DC"/>
+<rect x="882" y="158" width="266" height="106" rx="3" fill="#001B3B"/>
+<text x="1015" y="193" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">miss</text>
+<text x="1015" y="217" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">2: a human fills it in</text>
+<text x="1015" y="241" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">counted, never hidden</text>
+<rect x="590" y="286" width="270" height="110" rx="4" fill="#EDE7DC"/>
+<text x="725" y="323" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#001B3B">invented</text>
+<text x="725" y="347" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#001B3B">0 in the reference read</text>
+<text x="725" y="371" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#001B3B">5 in the planted read</text>
+<rect x="880" y="286" width="270" height="110" rx="4" fill="#59591D"/>
+<text x="1015" y="335" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F2EDE2">match</text>
+<text x="1015" y="359" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#D8D3CA">5: blank left blank</text>
+<text x="435" y="346" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#D8D3CA">a blank has no value to equal</text>
+<text x="40" y="438" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#F2EDE2">The invented cell is a hard-zero gate: total_halluc must be 0, and no file, flag or setting can raise it.</text>
+</svg>
